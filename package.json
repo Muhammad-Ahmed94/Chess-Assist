@@ -1,0 +1,19 @@
+{
+  "name": "chess-assist",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["chess", "automation", "stockfish"],
+  "author": "",
+  "license": "ISC",
+  "description": "Chess move suggester for chess.com using Stockfish engine",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "chess.js": "^1.4.0",
+    "puppeteer-core": "^24.37.5",
+    "stockfish": "^18.0.5"
+  }
+}
