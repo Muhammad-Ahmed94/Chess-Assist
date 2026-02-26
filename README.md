@@ -4,6 +4,8 @@ A CLI tool that connects to your live [chess.com](https://www.chess.com) game, r
 
 The tool uses **humanized move selection** — it doesn't always play the #1 engine move. Instead, it picks from the top 5 candidates using weighted random selection (~60% best move, ~25% second best, etc.), making play look natural and avoiding anti-cheat detection.
 
+![2](https://github.com/user-attachments/assets/80b90ecd-ef3b-4ed0-943d-72214f3427f1)
+
 ## Features
 
 - 🔍 **Real-time board scanning** — reads piece positions directly from chess.com's DOM
@@ -21,8 +23,8 @@ The tool uses **humanized move selection** — it doesn't always play the #1 eng
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/chess-automation.git
-cd chess-automation
+https://github.com/Muhammad-Ahmed94/Chess-Assist.git
+cd Chess-Assist
 npm install
 ```
 
@@ -30,7 +32,7 @@ npm install
 
 ### Step 1: Launch browser
 
-Start your browser. if already opened then navigate to chess.com.
+Start your browser. If already opened then navigate to [chess.com](https://www.chess.com)
 
 **Edge:**
 
